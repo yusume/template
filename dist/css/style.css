@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+body{  background: rgba(247, 247, 247, 0.959); }
+* {font-family : 'Nanum Gothic';}
+h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
+a { text-decoration: none; color: #252839;}
+a:hover { text-decoration: none;  color: #252839; }
+.text-oliv { color: #75b929;}
+.text-jasmine { color: #FFF130;}
+.text-monarch { color: #ff9a26;}
+.text-clay { color: #252839;}
+
+.bg-oliv { background-color: #75b929 ; }
+.bg-jasmine { background-color: #FFF130 ;}
+.bg-monarch { background-color: #ff9a26 ;}
+.bg-clay { background-color: #252839 ;}
+
+
+.btn-oliv { background-color: #9fff30; border: 2px solid #9fff30; border-radius: 5px; color: #fff;width: 8rem; height: 3rem; display: inline-block;}
+.btn-oliv:hover { background-color: #89ff00; border: 2px solid #89ff00; border-radius: 5px; color: #fff; }
+
+.btn-jasmine { background-color: #FFF130; border: 2px solid #FFF130; border-radius: 5px; color: #fff;width: 8rem; display: inline-block;}
+.btn-jasmine:hover { background-color: #fae521; border: 2px solid #fae521; border-radius: 5px; color: #fff; }
+
+.btn-monarch { background-color: #ff9a26; border: 2px solid #ff9a26; border-radius: 5px; color: #fff;width: 8rem; display: inline-block;}
+.btn-monarch:hover { background-color: #FF8726; border: 2px solid #FF8726; border-radius: 5px; color: #fff; }
+
+.btn-clay { background-color: #252839; border: 2px solid #252839; border-radius: 5px; color: #fff;width: 8rem; display: inline-block;}
+.btn-clay:hover { background-color: #192049; border: 2px solid #192049; border-radius: 5px; color: #fff; }
+
+.content-center { margin: 0 auto;}
+.b-ra-5 { border-radius: 5px; }
+.b-rl-5 { border-radius: 5px 0px 0 5px;}
+.b-rr-5 { border-radius: 0px 5px 5px 0;}
+.b-rt-5 { border-radius: 5px 5px 0px 0px;}
+.b-r-rt-5 { border-radius: 0px 5px 0px 0px;}
