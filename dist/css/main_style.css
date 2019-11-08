@@ -1,0 +1,8 @@
+
+/* main */
+
+
+main { margin-top: 7.2rem;}
+#carouselExampleIndicators ,.carousel-item, .carousel-inner{ max-height: 31.25rem;}
+.carousel-inner img { filter: brightness(0.5); }
+.carousel-caption {bottom: 40% !important;}
