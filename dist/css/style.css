@@ -22,11 +22,11 @@ a:hover { text-decoration: none;  color: #252839; }
 
 .content-center { margin: 0 auto;}
 
-.b-ra-5 { border-radius: 5px; }
-.b-rl-5 { border-radius: 5px 0px 0 5px;}
-.b-rr-5 { border-radius: 0px 5px 5px 0;}
-.b-rt-5 { border-radius: 5px 5px 0px 0px;}
-.b-r-rt-5 { border-radius: 0px 5px 0px 0px;}
+.b-ra-5 { border-radius: 5px !important; }
+.b-rl-5 { border-radius: 5px 0px 0 5px !important;}
+.b-rr-5 { border-radius: 0px 5px 5px 0 !important;}
+.b-rt-5 { border-radius: 5px 5px 0px 0px !important;}
+.b-r-rt-5 { border-radius: 0px 5px 0px 0px !important;}
 /* .navbar {padding: 2rem;} */
 .navbar-brand img {height:2.5rem;  }
 .navbar-light .navbar-toggler {color: rgba(0, 0, 0, 0.5);}
