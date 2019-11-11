@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+body{
+    overflow-x:hidden;
+}
+* {font-family : 'Nanum Gothic';}
+h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
+
+.menu-img{
+    background-image:url('../../../dist/image/tec.webp');
+    
+    height:15rem;
+    opacity:0.8;
+}
+.menu_content{
+    transform: translate(10%,-250%);
+    color:white;
+    /* font-size:2rem; */
+}
+/* .menu{
+    margin-top:5rem;
+} */
+.tt{
+    font-size:2rem;
+}
+.text-navy{
+    color:#0d599c;
+}
+
+
+
+.timeline {
+  position: relative;
+  max-width:950px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.hello {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.hello::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: white;
+  border: 4px solid #355663;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.left {
+  left: 0;
+}
+
+
+.right {
+  left: 50%;
+}
+
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -13px;
+}
+
+
+.content {
+  padding: 20px 30px;
+  background-color: #355663;
+  position: relative;
+  border-radius: 6px;
+  border:solid 1px white;
+}
+
+.content h2{
+    color:white;
+}
+
+@media screen and (max-width: 600px) {
+
+  .timeline::after {
+  left: 31px;
+  }
+  
+  .hello {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+
+  .hello::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+
+  .right {
+  left: 0%;
+  }
+}
+
+.p_white{
+    color:white;
+}
+.cp_title{
+  font-size:1.5rem;
+  /* color:#FF8726; */
+}
+@media(max-width:766px){
+ .sm_title{
+   transform:translate(-20%,-60%);
+   margin-bottom:0.01rem;
+ }
+
+ }
