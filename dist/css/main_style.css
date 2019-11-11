@@ -59,6 +59,7 @@ nav > .nav.nav-tabs{
   nav > div a.nav-item.nav-link,
   nav > div a.nav-item.nav-link.active{
     color:#000;
+    line-height: 2rem
     text-align: center;
 
   }
@@ -76,17 +77,15 @@ nav > .nav.nav-tabs{
     /* transform: rotate(180deg); */
     pointer-events: none;
     text-align: center;
+
    
 }
   nav div a.nav-item.nav-link:not(.active)::after { content: "\00a0\00a0\00a0\00a0\00a0\00a0"; }
-  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link { border:transparent; background: none;}
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover { border:none !important; background: none;}
 
   .tab-content{
     min-height: 20rem;
     line-height: 25px;    
-    background: ;
-
-    padding:30px 25px;
   }
   
   nav > div a.nav-item.nav-link:hover,
@@ -97,7 +96,7 @@ nav > .nav.nav-tabs{
     transition:background 0.20s linear;
   }
 
-
+  .nav-link {padding: 10px 0 !important; text-align:center; justify-content: center;}
 
 
 
@@ -111,4 +110,4 @@ nav > .nav.nav-tabs{
 
 
 .content3 { background-image: url('../image/bg-87.jpg');}
-.content4 { background-image: url('../image/main_con04_bg.jpg');}
+.content4 { background-image: url('../image/main_con1_bg.jpg');}

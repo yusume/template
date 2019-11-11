@@ -42,3 +42,7 @@ a:hover { text-decoration: none;  color: #252839; }
   -webkit-text-fill-color: transparent;}
   
   .grad::before { font-weight: bold;}
+
+
+.btn-top { color:rgba(0,0,0,0.6); background: transparent;  z-index: 200;cursor:  pointer;width: 42px; height: 42px;display: inline-block; position: fixed; bottom: 1.5rem; right: 1.5rem; border: 2px solid rgba(0,0,0,0.6); border-radius: 50%;}
+
