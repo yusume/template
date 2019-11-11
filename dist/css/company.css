@@ -6,7 +6,7 @@ body{
 h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
 
 .menu-img{
-    background-image:url('../../../dist/image/tec.webp');
+    background-image:url('../image/tec.webp');
     height:12rem;
     opacity:0.8;
 }
@@ -171,7 +171,12 @@ h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
     .next_tb th{
         width:35%!important;
     }
-
+    .ig_box{
+        border:none!important;
+    }
+    .t_adress{
+        width:50%!important;
+    }
 
  }
 
@@ -262,3 +267,29 @@ width:30%;
  .down{
      padding-top:4rem;
  }   
+ .p_war{
+     font-size:0.8rem;
+     color:#ff8d00;
+ }
+ .btn-navy{
+     background-color:#0d599c;
+     color:white;
+     border-radius: 2px;
+ }
+.sign_box{
+    border:solid 3px rgb(30, 103, 151);
+}
+.img_box{
+    padding:1rem;
+    background-color:rgb(245, 243, 243);
+    height:22rem;
+}
+.user_icon{
+    line-height:15rem!important;
+}
+.info{
+    border:double 4px #ffff;
+}
+.btn-center{
+width:100%;
+}
