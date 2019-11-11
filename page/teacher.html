@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name=”keywords” content="">
+  <meta name=“description” content="">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet'>
+  <link rel="stylesheet" href="../dist/bootstrap-4.3.1/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../dist/bootstrap-4.3.1/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="../dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/company.css">
+  <link rel="stylesheet" href="../dist/font-awesome/css/fontawesome-all.css">
+  <link rel="stylesheet" href="../dist/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="../dist/css/animate.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-md fixed-top top-nav navbar-light bg-white">
+    <!-- <div class=""></a> </div> -->
+    <div class="container">
+      <div class=" d-flex justify-content-between"><a class="navbar-brand text-uppercase " href="#"><span
+            style="font-size: 1rem;"> glocal &nbsp;dream</span> <br>a c a d e m y </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse" style="justify-content: flex-end;">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link active font-weight-bolder ml-3 mr-3" href="">회사 소개</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active font-weight-bold ml-3 mr-3" href="">게시판</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active font-weight-bold ml-3 mr-3" href="">메뉴3</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active font-weight-bold ml-3 mr-3" href="">메뉴4</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active font-weight-bold ml-3 mr-3 text-orange" href="">ADMIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu">
+    <div class="menu-img">
+      <div class="container">
+        <div class="row down">
+          <div class="col-md-6">
+            <p class="text-left tt text-white"><b>공 지 사 항</b></p>
+          </div>
+          <div class="col-md-6">
+            <p class="text-right text-white">게시판 / 공지사항</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-wrap container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-hover border-bottom">
+          <tr class="text-center bg-light">
+            <th style="width:10%;">번호</th>
+            <th style="width:50%;">제 목</th>
+            <th style="width:10%;">작성자</th>
+            <th style="width:10%;">작성일</th>
+            <th style="width:10%;">조회수</th>
+          </tr>
+          <tr class="text-center"  onclick="location.href='notice_detail.html'">
+            <td>4</td>
+            <td>사회적 기업 선정</td>
+            <td>유수미</td>
+            <td>2019-08-02</td>
+            <td>21</td>
+          </tr>
+          <tr class="text-center" onclick="location.href='notice_detail.html'">
+            <td>3</td>
+            <td>사회적 기업 선정</td>
+            <td>유수미</td>
+            <td>2019-08-02</td>
+            <td>21</td>
+          </tr>
+          <tr class="text-center" onclick="location.href='notice_detail.html'">
+            <td>2</td>
+            <td>사회적 기업 선정</td>
+            <td>유수미</td>
+            <td>2019-08-02</td>
+            <td>21</td>
+          </tr>
+          <tr class="text-center" onclick="location.href='notice_detail.html'">
+            <td>1</td>
+            <td>사회적 기업 선정</td>
+            <td>유수미</td>
+            <td>2019-08-02</td>
+            <td>21</td>
+          </tr>
+        </table>
+        <div class="float-right">
+          <a class="btn btn-gray" href="notice_wirte.html"><i class="far fa-edit"></i> 글 쓰 기</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="row mt-4">
+        <div class="col-md-6"></div>
+        <div class="col-md-4">
+          <div class="float-center">
+            <p class="page_num text-center">1</p>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-3">
+              <select name="" class="form-control">
+                <option value="제목">제목</option>
+                <option value="내용">내용</option>
+                <option value="작성자">작성자</option>
+                <option value="제목+내용">제목+내용</option>
+              </select>
+            </div>
+            <div class="col-md-9">
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <input type="hidden" class="form-control">
+                  <input type="search" class="form-control">
+                  <div class="input-group-append">
+                    <span class="input-group-text bg-navy">
+                      <span class="text-white">검색</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-top text-right pr-4">
+      <a class="text-uppercase text-dark">top</a>
+    </div>
+    <footer class="text-muted bg-clay">
+      <div class="container pt-5 pb-3" >
+        <div class="row">
+          <div class="col-md-12 pt-1 text-center">
+            <p>이용약관 | 개인정보취급방침 | 이메일주소무단수집거부</p>
+            <p>충청남도 아산시 탕정면 갈산리 100번지 선문대학교 인문대 505호 ｜ 회사명 : (사)글로컬드림아카데미 ｜ 대표이사 : 윤성규 |</p>
+            <p>Email : gdasunmoon@naver.com ｜ Tel : OOO-OOO-OOOO ｜</p>
+    
+          </div>
+          <div class=" col-md-12 text-center pt-2">
+            <p>Copyright ⓒ (사)글로컬드림아카데미 All rights reserved. Designed & Programmed by GLOCAL DREAM
+              ACADEMY</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  <script src="../dist/jquery/jquery-3.4.1.min.js"></script>
+  <script src="../dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+  <script src="../dist/js/script.js"></script>
+  <script type="text/javascript" src="../dist/js/wow.min.js"></script>
+  <script> new WOW().init(); </script>
+</body>
+
+</html>

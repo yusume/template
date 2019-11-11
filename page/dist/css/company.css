@@ -7,18 +7,13 @@ h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
 
 .menu-img{
     background-image:url('../../../dist/image/tec.webp');
-    
-    height:15rem;
+    height:12rem;
     opacity:0.8;
 }
-.menu_content{
-    transform: translate(10%,-250%);
-    color:white;
-    /* font-size:2rem; */
+
+.menu{
+    margin-top:8.5rem;
 }
-/* .menu{
-    margin-top:5rem;
-} */
 .tt{
     font-size:2rem;
 }
@@ -112,7 +107,7 @@ h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
   padding: 20px 30px;
   background-color: #355663;
   position: relative;
-  border-radius: 6px;
+  border-radius:2px;
   border:solid 1px white;
 }
 
@@ -156,12 +151,114 @@ h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
 }
 .cp_title{
   font-size:1.5rem;
-  /* color:#FF8726; */
+  color:#0d599c;
 }
 @media(max-width:766px){
- .sm_title{
-   transform:translate(-20%,-60%);
-   margin-bottom:0.01rem;
- }
+  
+    .down .col-md-6:nth-of-type(2) p{
+    text-align:left!important;
+    }
+    .page_num{
+        margin:0 auto;
+    }
+
+    .write_td{
+        width:100%!important;
+    }
+    .write_content{
+        line-height:3rem!important;
+    }
+    .next_tb th{
+        width:35%!important;
+    }
+
 
  }
+
+.page_num{
+    border:solid 1px black;
+    padding:0.3rem;
+    padding-left:0.7rem;
+    padding-right:0.7rem;
+    color:black;
+    width:10%;
+}
+
+.page_num:hover{
+    border:solid 1px rgb(248, 106, 106);
+    padding:0.3rem;
+    padding-left:0.7rem;
+    padding-right:0.7rem;
+    color:red;
+}
+.bg-navy{
+    background-color:#3f74a1;
+}
+.btn-gray{
+    border-radius:2px;
+    background-color:#323337;
+    color:#CDCDC8;
+    font-size:0.9rem;
+}
+.write_th{
+    width:20%;
+}
+.write_td{
+width:30%;
+}
+.write_content{
+    line-height:12rem;
+}
+.t_btn{
+    text-align:center;
+}
+.btn-ok{
+    width:20%;
+    background-color:#ff8d00;
+    padding:1%;
+    border-radius:2px;
+    color:white;
+
+}
+
+.btn-cancle{
+    width:20%;
+    background-color:rgb(231, 231, 231);
+    padding:1%;
+    border-radius:2px;
+
+}
+.h_detail{
+    border:solid 2px rgb(26, 72, 133);
+}
+.p_detail{
+    font-size:1.15rem;
+}
+.p_dt{
+    font-size:0.8rem;
+    color:#747879;
+}
+.h_dt{
+    color:#686868;
+}
+.detail_img img{
+    width:100%;
+}
+.next_tb{
+    font-size:0.8rem;
+}
+.next_tb th{
+    width:20%;
+}
+.btn-back{
+    background-color:#EDEDED;
+    border-radius:2px;
+}
+.line-left {width:100%;
+    height: 3px;
+    background-color: #dbdbdb;
+    margin: 0 0 50px 0;}
+
+ .down{
+     padding-top:4rem;
+ }   
