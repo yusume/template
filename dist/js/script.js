@@ -1,6 +1,6 @@
 // 상단 메뉴 고정 
 $(document).ready(function () {
-
+    $(".navbar").css({ "padding": "2rem 2rem", "transition": "padding .2s" });
 });
 
 console.log();
