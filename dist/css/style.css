@@ -18,7 +18,7 @@ a:hover { text-decoration: none;  color: #252839; }
 .bg-crimson{background-color:#FD5D40;}
 
 .btn { border-radius: 0;}
-.btn-orange { background-color: #ff8d00; border: 2px solid #ff8d00; color: #fff;width: 8rem; display: inline-block;}
+.btn-orange { background-color: #ff8d00; border: 2px solid #ff8d00; color: #fff; display: inline-block;}
 .btn-orange:hover { background-color: #ff8d00; border: 2px solid #ff8d00;  color: #fff; }
 
 .btn-clay { background-color: #252839; border: 2px solid #252839; color: #fff;width: 8rem; display: inline-block;}

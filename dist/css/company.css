@@ -204,7 +204,7 @@ width:30%;
 }
 .btn-ok{
     width:20%;
-    background-color:#ff8d00;
+    background-color:#f98847;
     padding:1%;
     border-radius:2px;
     color:white;
@@ -285,7 +285,7 @@ width:100%;
     color:white;
 }
 .btn-outline-crimson{
-background-color:white;
+background-color:none;
 border:solid 1px #FD5D40;
 color:#FD5D40;
 }
