@@ -11,6 +11,7 @@ a:hover { text-decoration: none;  color: #252839; }
 
 .text-orange { color: #FD5D40 !important;}
 .text-clay { color: #252839!important;}
+.text-crimson{color:#FD5D40!important;}
 .text-chacol{color:#ababab!important; font-size:0.8rem;}
 .bg-monarch { background-color: #ff8d00 !important ;}
 .bg-clay { background-color: #252839 ;}
@@ -18,11 +19,15 @@ a:hover { text-decoration: none;  color: #252839; }
 .bg-crimson{background-color:#FD5D40;}
 
 .btn { border-radius: 0;}
-.btn-orange { background-color: #ff8d00; border: 2px solid #ff8d00; color: #fff; display: inline-block;}
-.btn-orange:hover { background-color: #ff8d00; border: 2px solid #ff8d00;  color: #fff; }
+.btn-orange { background-color: #FD5D40; border: 2px solid #FD5D40; color: #fff; display: inline-block;}
+.btn-orange:hover { background-color:rgb(255, 112, 87); border: 2px solid #FD5D40;  color: #fff; }
 
 .btn-clay { background-color: #252839; border: 2px solid #252839; color: #fff;width: 8rem; display: inline-block;}
 .btn-clay:hover { background-color: #192049; border: 2px solid #192049;  color: #fff; }
+.btn-crimson{background-color:#FD5D40;color:white;}
+.btn-crimson:hover{background-color:rgb(255, 112, 87);color:white;}
+.btn-outline-crimson{background-color:none;border:solid 1px #FD5D40;color:#FD5D40;}
+.btn-outline-crimson:hover{background-color:#FD5D40; color:white;}
 
 .content-center { margin: 0 auto;}
 

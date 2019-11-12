@@ -145,6 +145,7 @@
     }
     .page_num{
         margin:0 auto;
+        padding-right:8%!important;
     }
 
     .write_td{
@@ -162,7 +163,6 @@
     .t_adress{
         width:50%!important;
     }
-
  }
 
 .page_num{
@@ -204,7 +204,7 @@ width:30%;
 }
 .btn-ok{
     width:20%;
-    background-color:#f98847;
+    background-color:#FD5D40;
     padding:1%;
     border-radius:2px;
     color:white;
@@ -246,7 +246,7 @@ width:30%;
 }
 
  .down{
-     padding-top:4rem;
+     padding-top:3rem;
  }   
  .p_war{
      font-size:0.8rem;
@@ -280,17 +280,3 @@ width:100%;
 .sb_title{
     font-size:1.5rem;
 } 
-.btn-crimson{
-    background-color:#FD5D40;
-    color:white;
-}
-.btn-outline-crimson{
-background-color:none;
-border:solid 1px #FD5D40;
-color:#FD5D40;
-}
-
-.btn-outline-crimson:hover{
-    background-color:#FD5D40;
-    color:white;
-    }
