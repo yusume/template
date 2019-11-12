@@ -9,12 +9,13 @@ h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
 a { text-decoration: none; color: #252839;}
 a:hover { text-decoration: none;  color: #252839; }
 
-.text-orange { color: #ff8d00 !important;}
+.text-orange { color: #FD5D40 !important;}
 .text-clay { color: #252839!important;}
-.text-navy{color:#FD5D40!important;}
-
+.text-chacol{color:#ababab!important; font-size:0.8rem;}
 .bg-monarch { background-color: #ff8d00 !important ;}
 .bg-clay { background-color: #252839 ;}
+.bg-darkGray{background-color:#404040;}
+.bg-crimson{background-color:#FD5D40;}
 
 .btn { border-radius: 0;}
 .btn-orange { background-color: #ff8d00; border: 2px solid #ff8d00; color: #fff;width: 8rem; display: inline-block;}

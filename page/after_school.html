@@ -72,14 +72,14 @@
     <div class="page-wrap container mt-5 mb-5">
         <div class="row">
             <div class="col-md-12">
-                <button class="btn btn-navy mt-1" id="all_btn" data-name="all">전 체</button>
-                <button class="btn btn-outline-info mt-1 " id="sci_btn" data-name="science">과 학</button>
-                <button class="btn btn-outline-info mt-1 "id="mus_btn" data-name="music">음 악</button>
-                <button class="btn btn-outline-info mt-1 " id="math_btn" data-name="math">교 과 - 창 의</button>
-                <button class="btn btn-outline-info mt-1 " id="art_btn" data-name="art">미 술 - 공 예</button>
-                <button class="btn btn-outline-info mt-1 " id="com_btn" data-name="computer">컴퓨터-인성</button>
-                <button class="btn btn-outline-info mt-1 "id="spo_btn" data-name="sport">스 포 츠</button>
-                <button class="btn btn-outline-info mt-1 " id="eng_btn" data-name="english">외 국 어 -  수 리 탐 구</button>
+                <button class="btn btn-crimson mt-1" id="all_btn" data-name="all">전 체</button>
+                <button class="btn btn-outline-crimson mt-1 " id="sci_btn" data-name="science">과 학</button>
+                <button class="btn btn-outline-crimson mt-1 "id="mus_btn" data-name="music">음 악</button>
+                <button class="btn btn-outline-crimson mt-1 " id="math_btn" data-name="math">교 과 - 창 의</button>
+                <button class="btn btn-outline-crimson mt-1 " id="art_btn" data-name="art">미 술 - 공 예</button>
+                <button class="btn btn-outline-crimson mt-1 " id="com_btn" data-name="computer">컴퓨터-인성</button>
+                <button class="btn btn-outline-crimson mt-1 "id="spo_btn" data-name="sport">스 포 츠</button>
+                <button class="btn btn-outline-crimson mt-1 " id="eng_btn" data-name="english">외 국 어 -  수 리 탐 구</button>
                 <hr>
 
  
@@ -456,8 +456,8 @@
 
     $(".btn").click(function () {
         var asd = $('.btn');
-        $(this).addClass('btn-navy').removeClass('btn-outline-info');
-        asd.not($(this)).removeClass('btn-navy').addClass('btn-outline-info'); 
+        $(this).addClass('btn-crimson').removeClass('btn-outline-crimson');
+        asd.not($(this)).removeClass('btn-crimson').addClass('btn-outline-crimson'); 
 
         var subject = $(this).attr("data-name");
         var subjectCon = $('.subject');
