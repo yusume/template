@@ -46,7 +46,7 @@ a:hover { text-decoration: none;  color: #252839; }
 }
 
 .grad { text-transform: uppercase;
-	background: linear-gradient(0deg, rgba(255,141,0,1) 62%, rgba(255,243,0,1) 100%);
+  background: linear-gradient(0deg, #FD5D40 3%, rgba(255,141,0,1) 100%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}
   

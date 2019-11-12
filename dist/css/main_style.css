@@ -17,10 +17,10 @@ main { position: relative; top: 7rem; max-height:30rem; overflow: hidden; margin
   }
 .textDetail span { font-weight: 100;}
 
-.con { min-height: 40rem; overflow: hidden; margin-top: 12rem;}
+.con { min-height: 40rem; overflow: hidden; margin-top: 10rem;}
 .con div { overflow: hidden;}
 
-main img { filter: brightness(50%);}
+main img { filter: brightness(50%); height: 80vh; width: 100%;}
 
 .content1 h3 { line-height: 2rem;margin: 0 0 20px 0;}
 
