@@ -65,6 +65,7 @@ nav div a.nav-item.nav-link.active::after{
   color: #252839;
   pointer-events: none;
   text-align: center;
+  bottom: -0.2rem;
 }
 nav div a.nav-item.nav-link:not(.active)::after { content: "\00a0\00a0\00a0\00a0\00a0\00a0"; }
 
@@ -79,7 +80,12 @@ nav div a.nav-item.nav-link:not(.active)::after { content: "\00a0\00a0\00a0\00a0
     transition:background 0.20s linear;
   }
 
+
 .nav-link {padding: 10px 0 !important; text-align:center; justify-content: center;}
+
+.content2 .imgbox { height: 20rem; overflow: hidden;}
+.content2 .textbox h4 { margin-top: 3rem;}
+.content2 .textbox p { line-height: 2rem; word-break: keep-all;}
 
 .bg-parallax { 
     background-attachment: fixed;
@@ -91,3 +97,4 @@ nav div a.nav-item.nav-link:not(.active)::after { content: "\00a0\00a0\00a0\00a0
 
 .content3 { background-image: url('../image/bg-87.jpg');}
 .content4 { background-image: url('../image/main_con1_bg.jpg');}
+
