@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
 
-body{  }
+body{
+  overflow-x:hidden;
+}
+
 * {font-family : 'Nanum Gothic';}
 h1, h2, h3, h4, h5, h6 a, p, span {font-family : 'Nanum Gothic';}
 a { text-decoration: none; color: #252839;}
 a:hover { text-decoration: none;  color: #252839; }
 
 .text-orange { color: #ff8d00 !important;}
-.text-clay { color: #252839;}
-
+.text-clay { color: #252839!important;}
+.text-navy{color:#FD5D40!important;}
 
 .bg-monarch { background-color: #ff8d00 !important ;}
 .bg-clay { background-color: #252839 ;}
@@ -53,3 +56,51 @@ a:hover { text-decoration: none;  color: #252839; }
 .opacity-60 { opacity: 0.6;}
 .opacity-70 { opacity: 0.7;}
 .opacity-80 { opacity: 0.8;}
+
+.font-size-1_5{
+  font-size:1.5rem;
+
+}
+
+/* menu */
+.menu{
+  margin-top:8.5rem;
+}
+.menu-img{
+  background-image:url('../image/orange.png');
+  height:12rem;
+  opacity:0.8;
+  background-size: 120%;
+  background-position-y: top;
+  animation: animatedBackground 60s linear infinite;
+  -moz-animation: animatedBackground 60s linear infinite;
+  -webkit-animation: animatedBackground 60s linear infinite;
+  -ms-animation: animatedBackground 60s linear infinite;
+  -o-animation: animatedBackground 60s linear infinite;
+
+}
+@keyframes animatedBackground {
+  0% { background-position: top; }
+  50% { background-position: bottom; }
+  100% { background-position: top; }
+}
+@-moz-keyframes animatedBackground {
+  0% { background-position: top; }
+  50% { background-position: bottom; }
+  100% { background-position: top; }
+}
+@-webkit-keyframes animatedBackground {
+  0% { background-position: top; }
+  50% { background-position: bottom; }
+  100% { background-position: top; }
+}
+@-ms-keyframes animatedBackground {
+  0% { background-position: top; }
+  50% { background-position: bottom; }
+  100% { background-position: top; }
+}
+@-o-keyframes animatedBackground {
+  0% { background-position: top; }
+  50% { background-position: bottom; }
+  100% { background-position: top; }
+}
