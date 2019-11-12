@@ -21,38 +21,38 @@
 
 
 <body>
-        <nav class="navbar navbar-expand-md fixed-top top-nav navbar-light bg-white">
-                <!-- <div class=""></a> </div> -->
-                <div class="container">
-                    <div class=" d-flex justify-content-between"><a class="navbar-brand text-uppercase " href="#"><span
-                      style="font-size: 1rem;"> glocal &nbsp;dream</span> <br>a c a d e m y </a>
-                  </div>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-            
-                  <div class="collapse navbar-collapse" id="navbarCollapse" style="justify-content: flex-end;">
-                    <ul class="navbar-nav ">
-                      <li class="nav-item ">
+    <nav class="navbar navbar-expand-md fixed-top top-nav navbar-light bg-white">
+        <!-- <div class=""></a> </div> -->
+        <div class="container">
+            <div class=" d-flex justify-content-between"><a class="navbar-brand text-uppercase " href="#"><span
+                        style="font-size: 1rem;"> glocal &nbsp;dream</span> <br>a c a d e m y </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse" style="justify-content: flex-end;">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
                         <a class="nav-link active font-weight-bolder ml-3 mr-3" href="">회사 소개</a>
-                      </li>
-                      <li class="nav-item ">
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link active font-weight-bold ml-3 mr-3" href="">게시판</a>
-                      </li>
-                      <li class="nav-item ">
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link active font-weight-bold ml-3 mr-3" href="">메뉴3</a>
-                      </li>
-                      <li class="nav-item ">
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link active font-weight-bold ml-3 mr-3" href="">메뉴4</a>
-                      </li>
-                      <li class="nav-item ">
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link active font-weight-bold ml-3 mr-3 text-orange" href="">ADMIN</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="menu">
         <div class="menu-img">
@@ -71,164 +71,359 @@
 
     <div class="page-wrap container mt-5 mb-5">
         <div class="row">
-           <div class="col-md-12">
-                            <button class="btn btn-navy">외 국 어- 수 리 탐 구</button>
-                            <button class="btn btn-outline-info">교과-창의</button>
-                            <button class="btn btn-outline-info">미술-공예</button>
-                            <button class="btn btn-outline-info">컴퓨터-인성</button>
-                            <button class="btn btn-outline-info">스 포 츠</button>
-                            <button class="btn btn-outline-info">과 학</button>
-                            <button class="btn btn-outline-info">음 악</button>
-                        
-                        <hr>
-                        <div class="english">
-                        <div class="row mt-5 border-bottom">
-                            <div class="col-md-2">
-                                <p class="text-orange sb_title"><b>외 국 어</b></p>
-                                <div class="line-left"></div>
-                                <div class="subject_img">
-                                    <img src="../dist/image/sb2.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-8 mt-5 mb-5">
-                                <p><b><li class="text-orange">글로컬드림 영어</li></b></p>
-                                <p class="ml-3">음성언어 중심으로 발음 억양 등을 자연스럽게 습득.영어에 대한 흥미와 자신감향상</p>
-                                <p><b><li class="text-orange">글로컬드림 중국어</li></b></p>
-                                <p class="ml-3">다양한 오감학습 체험학습을 통해 21세기언어 중국어를 쉽고 재미있게 학습한다.</p>
+            <div class="col-md-12">
+                <button class="btn btn-navy mt-1" id="all_btn" data-name="all">전 체</button>
+                <button class="btn btn-outline-info mt-1 " id="sci_btn" data-name="science">과 학</button>
+                <button class="btn btn-outline-info mt-1 "id="mus_btn" data-name="music">음 악</button>
+                <button class="btn btn-outline-info mt-1 " id="math_btn" data-name="math">교 과 - 창 의</button>
+                <button class="btn btn-outline-info mt-1 " id="art_btn" data-name="art">미 술 - 공 예</button>
+                <button class="btn btn-outline-info mt-1 " id="com_btn" data-name="computer">컴퓨터-인성</button>
+                <button class="btn btn-outline-info mt-1 "id="spo_btn" data-name="sport">스 포 츠</button>
+                <button class="btn btn-outline-info mt-1 " id="eng_btn" data-name="english">외 국 어 -  수 리 탐 구</button>
+
+                <hr>
+
+ 
+                <div class="subject english" data-name="english">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>외 국 어</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb2.jpg" alt="">
                             </div>
                         </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">글로컬드림 영어</li>
+                                </b></p>
+                            <p class="ml-3">음성언어 중심으로 발음 억양 등을 자연스럽게 습득.영어에 대한 흥미와 자신감향상</p>
+                            <p><b>
+                                    <li class="text-orange">글로컬드림 중국어</li>
+                                </b></p>
+                            <p class="ml-3">다양한 오감학습 체험학습을 통해 21세기언어 중국어를 쉽고 재미있게 학습한다.</p>
+                        </div>
+                    </div>
 
-                        <div class="row mt-5 border-bottom">
-                                <div class="col-md-2">
-                                    <p class="text-orange sb_title"><b>수 리 탐 구</b></p>
-                                    <div class="line-left"></div>
-                                    <div class="subject_img">
-                                        <img src="../dist/image/sb3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 mt-5 mb-5">
-                                    <p><b><li class="text-orange">수학(교과,창의)</li></b></p>
-                                    <p class="ml-3">저학년: 교구를 통한 논리력, 창의력, 수학기초능력 향상<br>
-                                            고학년: 교과진도에 따른 복습을 통해 수학실력 향상</p>
-                                    <p><b><li class="text-orange">교육보드</li></b></p>
-                                    <p class="ml-3">보드게임 교구로 사람들과 함께하면서 사고력, 집중력, 창의력, 협동심, 리더쉽 향상에 도움</p>
-                                    <p><b><li class="text-orange">수리셈주산</li></b></p>
-                                    <p class="ml-3">주산과 암산의 기본을 익혀 계산력 향상과 자신감 향상</p>
-                                </div>
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>수 리 탐 구</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb3.jpg" alt="">
                             </div>
                         </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">수학(교과,창의)</li>
+                                </b></p>
+                            <p class="ml-3">저학년: 교구를 통한 논리력, 창의력, 수학기초능력 향상<br>
+                                고학년: 교과진도에 따른 복습을 통해 수학실력 향상</p>
+                            <p><b>
+                                    <li class="text-orange">교육보드</li>
+                                </b></p>
+                            <p class="ml-3">보드게임 교구로 사람들과 함께하면서 사고력, 집중력, 창의력, 협동심, 리더쉽 향상에 도움</p>
+                            <p><b>
+                                    <li class="text-orange">수리셈주산</li>
+                                </b></p>
+                            <p class="ml-3">주산과 암산의 기본을 익혀 계산력 향상과 자신감 향상</p>
+                        </div>
+                    </div>
+                </div>
 
-                        <div class="math">
-                                <div class="row mt-5 border-bottom">
-                                    <div class="col-md-2">
-                                        <p class="text-orange sb_title"><b>교 과</b></p>
-                                        <div class="line-left"></div>
-                                        <div class="subject_img">
-                                            <img src="../dist/image/sb2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 mt-5 mb-5">
-                                        <p><b><li class="text-orange">독서논술 (책놀이)</li></b></p>
-                                        <p class="ml-3">다양한 독후활동을 통해 느낌을 나누고 책읽기의 즐거움과 논리력 신장</p>
-                                        <p><b><li class="text-orange">놀이로배우는 맹모한자</li></b></p>
-                                        <p class="ml-3">놀이를 통한 교과서 한자어, 생활 한자어, 고사성어를 익혀 어휘력 향상 한자 급수 자격증 취득</p>
-                                        <p><b><li class="text-orange">한자급수</li></b></p>
-                                        <p class="ml-3">교과서 한자어, 생활 한자어, 고사성어를 익혀 어휘력 향상 한자 급수 자격증 취득</p>
-                                        <p><b><li class="text-orange">도전! 인물/역사 탐험대</li></b></p>
-                                        <p class="ml-3">저학년 : 인물탐험대<br>
-                                                고학년 : 역사탐험대<br>
-                                                스토리텔링으로 배우고 만들며 체험하는 즐거운 역사</p>
-                                    </div>
-                                </div>
-        
-                                <div class="row mt-5 border-bottom">
-                                        <div class="col-md-2">
-                                            <p class="text-orange sb_title"><b>창 의</b></p>
-                                            <div class="line-left"></div>
-                                            <div class="subject_img">
-                                                <img src="../dist/image/sb3.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 mt-5 mb-5">
-                                            <p><b><li class="text-orange">바둑</li></b></p>
-                                            <p class="ml-3">수읽기 과정을 통해 문제 해결력, 집중력을 기르고 인성함양</p>
-                                            <p><b><li class="text-orange">SM 놀이스쿨</li></b></p>
-                                            <p class="ml-3">즐겁게 놀면서 스스로 계획하는 능력과 문제해결능력은 물론 사회생활을 하는데 꼭 필요한<br> 대인관계능력 및 사회성을 키우기 위한 프로그램</p>
-                                            <p><b><li class="text-orange">교육마술</li></b></p>
-                                            <p class="ml-3">마술의 원리를 이해하고 응용함으로써 언어력 연기력 자심감 창의력 향상 예술활동</p>
-                                            <p><b><li class="text-orange">창의요리</li></b></p>
-                                            <p class="ml-3">계절과 행사 등에 딱 맞는 수업주제로 요리를 만들고 과정을 통한 과학상식 학습</p>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="subject math" data-name="math">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>교 과</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">독서논술 (책놀이)</li>
+                                </b></p>
+                            <p class="ml-3">다양한 독후활동을 통해 느낌을 나누고 책읽기의 즐거움과 논리력 신장</p>
+                            <p><b>
+                                    <li class="text-orange">놀이로배우는 맹모한자</li>
+                                </b></p>
+                            <p class="ml-3">놀이를 통한 교과서 한자어, 생활 한자어, 고사성어를 익혀 어휘력 향상 한자 급수 자격증 취득</p>
+                            <p><b>
+                                    <li class="text-orange">한자급수</li>
+                                </b></p>
+                            <p class="ml-3">교과서 한자어, 생활 한자어, 고사성어를 익혀 어휘력 향상 한자 급수 자격증 취득</p>
+                            <p><b>
+                                    <li class="text-orange">도전! 인물/역사 탐험대</li>
+                                </b></p>
+                            <p class="ml-3">저학년 : 인물탐험대<br>
+                                고학년 : 역사탐험대<br>
+                                스토리텔링으로 배우고 만들며 체험하는 즐거운 역사</p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>창 의</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">바둑</li>
+                                </b></p>
+                            <p class="ml-3">수읽기 과정을 통해 문제 해결력, 집중력을 기르고 인성함양</p>
+                            <p><b>
+                                    <li class="text-orange">SM 놀이스쿨</li>
+                                </b></p>
+                            <p class="ml-3">즐겁게 놀면서 스스로 계획하는 능력과 문제해결능력은 물론 사회생활을 하는데 꼭 필요한<br> 대인관계능력 및 사회성을 키우기 위한
+                                프로그램</p>
+                            <p><b>
+                                    <li class="text-orange">교육마술</li>
+                                </b></p>
+                            <p class="ml-3">마술의 원리를 이해하고 응용함으로써 언어력 연기력 자심감 창의력 향상 예술활동</p>
+                            <p><b>
+                                    <li class="text-orange">창의요리</li>
+                                </b></p>
+                            <p class="ml-3">계절과 행사 등에 딱 맞는 수업주제로 요리를 만들고 과정을 통한 과학상식 학습</p>
+                        </div>
+                    </div>
+                </div>
 
 
-                                <div class="art">
-                                        <div class="row mt-5 border-bottom">
-                                            <div class="col-md-2">
-                                                <p class="text-orange sb_title"><b>미 술 - 공 예</b></p>
-                                                <div class="line-left"></div>
-                                                <div class="subject_img">
-                                                    <img src="../dist/image/sb2.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 mt-5 mb-5">
-                                                <p><b><li class="text-orange">토탈공예</li></b></p>
-                                                <p class="ml-3">창의성, 집중력 향상에 기여 클레이,냅킨,비즈,폼아트,리본,종이접기,펄러비즈,POP 등</p>
-                                                <p><b><li class="text-orange">통합미술</li></b></p>
-                                                <p class="ml-3">다양한 기법의 미술활동을 통해 창의력, 상상력, 자기표현능력 향상</p>
-                                                <p><b><li class="text-orange">서예</li></b></p>
-                                                <p class="ml-3">바른 자세와 집중력을 키워주며 기초부터 대회까지 수준별 개별지도</p>
-                                                <p><b><li class="text-orange">한국화</li></b></p>
-                                                <p class="ml-3">우리의 정서를 담은 화선지, 먹, 동양화물감 등 한국의 전통기법과 양식에 의한 그림</p>
-                                            </div>
-                                        </div>
-                
-                                       
-                                        </div>
+                <div class="subject art" data-name="art">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>미 술 - 공 예</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">토탈공예</li>
+                                </b></p>
+                            <p class="ml-3">창의성, 집중력 향상에 기여 클레이,냅킨,비즈,폼아트,리본,종이접기,펄러비즈,POP 등</p>
+                            <p><b>
+                                    <li class="text-orange">통합미술</li>
+                                </b></p>
+                            <p class="ml-3">다양한 기법의 미술활동을 통해 창의력, 상상력, 자기표현능력 향상</p>
+                            <p><b>
+                                    <li class="text-orange">서예</li>
+                                </b></p>
+                            <p class="ml-3">바른 자세와 집중력을 키워주며 기초부터 대회까지 수준별 개별지도</p>
+                            <p><b>
+                                    <li class="text-orange">한국화</li>
+                                </b></p>
+                            <p class="ml-3">우리의 정서를 담은 화선지, 먹, 동양화물감 등 한국의 전통기법과 양식에 의한 그림</p>
+                        </div>
+                    </div>
 
-                                        
-                                <!-- <div class="computer">
-                                        <div class="row mt-5 border-bottom">
-                                            <div class="col-md-2">
-                                                <p class="text-orange sb_title"><b>컴 퓨 터 - 인 성</b></p>
-                                                <div class="line-left"></div>
-                                                <div class="subject_img">
-                                                    <img src="../dist/image/sb2.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 mt-5 mb-5">
-                                                <p><b><li class="text-orange">컴퓨터(기초,자격)</li></b></p>
-                                                <p class="ml-3">컴퓨터 기초부터 자격증 취득까지 컴퓨터의 전반적인 활용 능력향상</p>
-                                                <p><b><li class="text-orange">통합미술</li></b></p>
-                                                <p class="ml-3">고급과정으로 직접 프로그램 교육으로 창의력, 사고력, 논리력 향상</p>
-                                            </div>
-                                            
-                                            
-                                        </div>
 
-                                        <div class="row mt-5 border-bottom">
-                                                <div class="col-md-2">
-                                                    <p class="text-orange sb_title"><b>컴 퓨 터 - 인 성</b></p>
-                                                    <div class="line-left"></div>
-                                                    <div class="subject_img">
-                                                        <img src="../dist/image/sb2.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-8 mt-5 mb-5">
-                                                        <p><b><li class="text-orange">세상을 이끄는 스피치 리더십</li></b></p>
-                                                        <p class="ml-3">자신있게 표현하는 수업으로 긍정적인 마인드형성, 자아존중감 형성</p>
-                                                    </div>
-                                                </div>
-                                                
-                                                
-                                            </div> -->
-                                        </div>
-               </div>
+                </div>
 
-               
-           </div>
-        </div>
+                <div class="subject computer" data-name="computer">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>컴 퓨 터</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">컴퓨터(기초,자격)</li>
+                                </b></p>
+                            <p class="ml-3">컴퓨터 기초부터 자격증 취득까지 컴퓨터의 전반적인 활용 능력향상</p>
+                            <p><b>
+                                    <li class="text-orange">컴퓨터(코딩)</li>
+                                </b></p>
+                            <p class="ml-3">고급과정으로 직접 프로그램 교육으로 창의력, 사고력, 논리력 향상</p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>인 성</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb7.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">세상을 이끄는 스피치 리더십</li>
+                                </b></p>
+                            <p class="ml-3">자신있게 표현하는 수업으로 긍정적인 마인드형성, 자아존중감 형성</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject sport" data-name="sport">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>스 포 츠</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb8.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">축구</li>
+                                </b></p>
+                            <p class="ml-3">축구를 통한 인내심, 책임감, 협동심, 능동적인 자세향상. 신체발달, 자신감 쑥쑥</p>
+                            <p><b>
+                                    <li class="text-orange">뉴스포츠</li>
+                                </b></p>
+                            <p class="ml-3">여러 가지 스포츠를 다양하게 경험하고 자신감과 신체발달에 도움을 줌</p>
+                            <p><b>
+                                    <li class="text-orange">배드민턴</li>
+                                </b></p>
+                            <p class="ml-3">유연성, 순발력, 근지구력 향상. 파트너와의 호흡으로 신뢰성, 사회성을 기르며 스트레스 해소</p>
+                            <p><b>
+                                    <li class="text-orange">음악 줄넘기</li>
+                                </b></p>
+                            <p class="ml-3">음악과 함께 신나고 다양한 동작연출로 줄넘기를 하여 성장발달과 비만관리</p>
+                            <p><b>
+                                    <li class="text-orange">탁구</li>
+                                </b></p>
+                            <p class="ml-3">탁구를 통해 사회성 발달, 순발력, 판단력이 좋아져 뇌활성에 도움</p>
+                            <p><b>
+                                    <li class="text-orange">골프</li>
+                                </b></p>
+                            <p class="ml-3">스윙을 통해 신체의 유연성, 상체근육의 발달, 성장판을 자극하여 키성장에 도움</p>
+                            <p><b>
+                                    <li class="text-orange">스포츠 댄스</li>
+                                </b></p>
+                            <p class="ml-3">다양한 스포츠댄스를 배우며 신체발달에 도움을 주고 공연을 통한 자신감 향상</p>
+                            <p><b>
+                                    <li class="text-orange">밸리댄스</li>
+                                </b></p>
+                            <p class="ml-3">밸리댄스를 통한 복부의 근력, 몸매교정효과, 유연성, 스트레스 해소효과</p>
+                            <p><b>
+                                    <li class="text-orange">방송댄스</li>
+                                </b></p>
+                            <p class="ml-3">다양한 방송댄스를 배우는 수업으로 신체발달에 도움, 공연을 통해 자신감 향상</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="subject science" data-name="science">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>과 학</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb9.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">로봇누리</li>
+                                </b></p>
+                            <p class="ml-3">전문가들의 교구 검증 및 교육과정 개발 보급, 유통단계를 줄이고 공익성 확대를<br> 통한 최저가 보급.국제청소년로봇대회 참가 제품 사용
+                            </p>
+                            <p><b>
+                                    <li class="text-orange">레고</li>
+                                </b></p>
+                            <p class="ml-3">레고블럭을 활용하여 자신만의 창작품을 만들며 손근육발달, 입체감각, 공간지각력 향상에 도움</p>
+                            <p><b>
+                                    <li class="text-orange">건축교실</li>
+                                </b></p>
+                            <p class="ml-3">황토블럭을 활용하여 다양한 건축물을 만들며 창의력, 공간지각력 향상</p>
+                            <p><b>
+                                    <li class="text-orange">발명교실</li>
+                                </b></p>
+                            <p class="ml-3">다양한 주제를 가지고 생각하고 토론하며 발명품 만들어보기</p>
+                            <p><b>
+                                    <li class="text-orange">인공지능 교실</li>
+                                </b></p>
+                            <p class="ml-3">1인 1 태블릿PC를 이용하여 직접 코딩함으로써 <br> 소프트웨어와 하드웨어를 복합적으로 다루는 창의적, 논리적 융합교육</p>
+                            <p><b>
+                                    <li class="text-orange">과학실험</li>
+                                </b></p>
+                            <p class="ml-3">다양한 주제의 실험을 통해 과학적 사고력 증진 및 창의적 문제 해결력을 향상</p>
+                            <p><b>
+                                    <li class="text-orange">스포츠 댄스</li>
+                                </b></p>
+                            <p class="ml-3">다양한 스포츠댄스를 배우며 신체발달에 도움을 주고 공연을 통한 자신감 향상</p>
+                            <p><b>
+                                    <li class="text-orange">생명과학</li>
+                                </b></p>
+                            <p class="ml-3">자연, 환경, 에너지 등의 다양한 주제 탐구활동을 통해 생명의 소중함을 배우는 프로그램</p>
+                            <p><b>
+                                    <li class="text-orange">항공드론</li>
+                                </b></p>
+                            <p class="ml-3">항공과학에 대한 호기심과 드론의 기초 조작 방법을 체험하고 익히는 프로그램</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject music" data-name="music">
+                    <div class="row mt-5 border-bottom">
+                        <div class="col-md-2">
+                            <p class="text-orange sb_title"><b>음 악</b></p>
+                            <div class="line-left"></div>
+                            <div class="subject_img">
+                                <img src="../dist/image/sb10.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 mb-5">
+                            <p><b>
+                                    <li class="text-orange">바이올린</li>
+                                </b></p>
+                            <p class="ml-3">바이올린의 다양한 연주를 통해 음악의 아름다움을 느끼고 기능 익히기
+                            </p>
+                            <p><b>
+                                    <li class="text-orange">첼로</li>
+                                </b></p>
+                            <p class="ml-3">예술적인 사고와 표현력 함양, 첼로 연주를 통해 무대매너와 자신감 향상</p>
+                            <p><b>
+                                    <li class="text-orange">사물놀이</li>
+                                </b></p>
+                            <p class="ml-3">네 가지 타악기를 사용해서 리듬감을 기르며 놀이형식에서 민중의 희로애락을 느낌</p>
+                            <p><b>
+                                    <li class="text-orange">난타</li>
+                                </b></p>
+                            <p class="ml-3">각양각색의 사물을 두드려 음악을 만드는 퍼포먼스 수업을 통해 리듬감 향상, 스트레스 해소</p>
+                            <p><b>
+                                    <li class="text-orange">오카리나</li>
+                                </b></p>
+                            <p class="ml-3">오카리나의 다양한 연주를 통해 음악의 아름다움 느끼기</p>
+                            <p><b>
+                                    <li class="text-orange">하모니카</li>
+                                </b></p>
+                            <p class="ml-3">가격이 저렴하여 누구나 손쉽게 즐겨 불 수 있으며, <br>유일하게 호흡하는 악기로 심폐기능을 강화할 수 있어 건강에도 도움</p>
+                            <p><b>
+                                    <li class="text-orange">우쿨렐레</li>
+                                </b></p>
+                            <p class="ml-3">하와이 악기로 기본 연주법을 익혀 연주. 즐거운 음악세계 경험</p>
+                            <p><b>
+                                    <li class="text-orange">플루트</li>
+                                </b></p>
+                            <p class="ml-3">플롯의 기초적 기능을 익히고 다양한 연주를 통해 음악의 아름다움을 경험</p>
+                            <p><b>
+                                    <li class="text-orange">통기타</li>
+                                </b></p>
+                            <p class="ml-3">통기타의 기본 연주법을 익히고 다양한 연주를 통해 즐겁고 신나는 음악활동 경험</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+            </div>
+      
+
+
+    </div>
+    </div>
     </div>
 
     <div class="btn btn-top text-right pr-4 text-center">
@@ -256,7 +451,31 @@
     <script src="../dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
     <script src="../dist/js/script.js"></script>
     <script type="text/javascript" src="../dist/js/wow.min.js"></script>
+    <script src="../dist/jquery/jquery-3.4.1.min.js"></script>
     <script> new WOW().init(); </script>
+    <script>
+
+    $(".btn").click(function () {
+        var asd = $('.btn');
+        $(this).addClass('btn-navy').removeClass('btn-outline-info');
+        asd.not($(this)).removeClass('btn-navy').addClass('btn-outline-info'); 
+
+        var subject = $(this).attr("data-name");
+        var subjectCon = $('.subject');
+        for (var i = 0; i < subjectCon.length; i++) {
+            var content = $(subjectCon[i]).attr("data-name");
+            if (content == subject) {
+                $('.' + content).show(300);
+            } else if (subject == "all") {
+                $('.subject').show(300);
+            } else {
+                $('.' + content).hide(300);
+            }
+
+        }
+    });
+    
+    </script>
 </body>
 
 </html>
