@@ -62,7 +62,7 @@
       <div class="container">
         <div class="row down">
           <div class="col-md-6">
-            <p class="text-left tt text-white"><b>공 지 사 항</b></p>
+            <p class="text-left font-size-2 text-white"><b>공 지 사 항</b></p>
           </div>
           <div class="col-md-6">
             <p class="text-right text-white">게시판 / 글쓰기</p>
@@ -77,15 +77,15 @@
       <div class="col-md-12">
         <div class="row">
           <div class="col-md-12">
-            <table class="table">
+            <table class="table bs3-success">
               <tr class="border-bottom">
                 <th class="text-left bg-light pl-3">작성자</th>
-                <td><input type="text" class="form-control write_td"></td>
+                <td><input type="text" class="form-control  w-100"></td>
               </tr>
 
               <tr class="border-bottom">
                 <th class="text-left bg-light write_th pl-3">비밀번호</th>
-                <td><input type="password" class="form-control write_td"></td>
+                <td><input type="password" class="form-control  w-100"></td>
               </tr>
 
               <tr class="border-bottom">
@@ -101,7 +101,11 @@
 
               <tr class="border-bottom">
                 <th class="text-left bg-light write_th pl-3">첨부파일</th>
-                <td><input type="file" class="form-control"></td>
+                <td >
+                    <input class="upload-name" value="파일선택" disabled="disabled">
+                    <label for="ex_filename" class="m-0">업로드</label> 
+                    <input type="file" id="ex_filename" class="upload-hidden"> 
+                </td>
               </tr>
 
             </table>
@@ -144,7 +148,7 @@
   <script src="../dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
   <script src="../dist/js/script.js"></script>
   <script type="text/javascript" src="../dist/js/wow.min.js"></script>
-  <script> new WOW().init(); </script>
+
 </body>
 
 </html>

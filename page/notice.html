@@ -61,7 +61,7 @@
       <div class="container">
         <div class="row down">
           <div class="col-md-6">
-            <p class="text-left tt text-white"><b>공 지 사 항</b></p>
+            <p class="text-left font-size-2 text-white"><b>공 지 사 항</b></p>
           </div>
           <div class="col-md-6">
             <p class="text-right text-white">게시판 / 공지사항</p>
@@ -117,29 +117,35 @@
       </div>
     </div>
     <div>
+
+
       <div class="row mt-4">
-        <div class="col-md-6"></div>
-        <div class="col-md-4">
-          <div class="float-center">
-            <p class="page_num text-center">1</p>
-          </div>
-          <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8 ">
+          <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link text-orange" href="#"><</a> </li> 
+            <li class="page-item"><a class="page-link text-orange" href="#">1</a></li>
+            <li class="page-item"><a class="page-link text-orange" href="#">2</a></li>
+            <li class="page-item"><a class="page-link text-orange" href="#">3</a></li>
+            <li class="page-item"><a class="page-link text-orange" href="#">></a></li>
+          </ul>
         </div>
+        <div class="col-md-2"></div>
       </div>
 
       <div class="row mt-2">
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <div class="row">
-            <div class="col-md-3">
-              <select name="" class="form-control">
+            <div class="col-md-3 pr-0">
+              <select name="" class="form-control p-1">
                 <option value="제목">제목</option>
                 <option value="내용">내용</option>
                 <option value="작성자">작성자</option>
                 <option value="제목+내용">제목+내용</option>
               </select>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 pl-0">
               <div class="form-group">
                 <div class="input-group mb-3">
                   <input type="hidden" class="form-control">
@@ -182,6 +188,8 @@
 
 
   <script src="../dist/jquery/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
   <script src="../dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
   <script src="../dist/js/script.js"></script>
   <script type="text/javascript" src="../dist/js/wow.min.js"></script>
