@@ -82,7 +82,7 @@
                             <label for="" class="label-control">회원사진</label>
                             <div class="img_box text-center">
                                 <div class="info">
-                                   
+
                                     <i class="fas fa-user fa-4x user_icon text-white"></i>
                                     <i><img id="target"></i>
                                 </div>
@@ -115,8 +115,11 @@
                                 </div>
                                 <div class="col-md-12 mt-3">
                                     <label for="" class="control-label">주소</label>
-                                    <input type="text" class="form-control t_adress" required style="width:20%;">
-                                    <input type="text" class="form-control mt-1" required>
+                                    <div class="row">
+                                        <input type="text" class="form-control col-md-3">
+                                        <input type="button" class="btn btn-outline-crimson col-md-3" value=" 검 색 ">
+                                    </div>
+                                    <input type="text" class="form-control mt-2" required>
                                 </div>
 
                                 <div class="col-md-12 mt-3">
@@ -177,48 +180,58 @@
     <script src="../dist/bootstrap-4.3.1/js/bootstrap.min.js"></script>
     <script src="../dist/js/script.js"></script>
     <script type="text/javascript" src="../dist/js/wow.min.js"></script>
+    
     <script>
-    
-        
-$( document ).ready( function() {  
-    $(".info i:nth-child(2) ").css("display","none");
-    $('input#user_id').addClass('src');
-    var file = document.querySelector('.src');
-   
-file.onchange = function () { 
-    var fileList = file.files ;
-    
-    // 읽기
-    var reader = new FileReader();
-    reader.readAsDataURL(fileList [0]);
 
-    //로드 한 후
-    reader.onload = function  () {
-        
-        //로컬 이미지를 보여주기
-        document.querySelector('#target').src = reader.result;
-        
-        //썸네일 이미지 생성
-        var tempImage = new Image(); //drawImage 메서드에 넣기 위해 이미지 객체화
-        tempImage.src = reader.result; //data-uri를 이미지 객체에 주입
-        tempImage.onload = function() {
-            //리사이즈를 위해 캔버스 객체 생성
-            var canvas = document.createElement('canvas');
-            var canvasContext = canvas.getContext("2d");
-        
-            //이미지를 캔버스에 그리기
-            canvasContext.drawImage(this, 0, 0, 100, 100);
-            $(".img_box .info i:nth-child(1) ").css("display","none"); 
-            $(".img_box .info i:nth-child(2) ").css({"display":"block", "overflow":"hidden", "height":"15rem"});
-            $(".img_box .info i:nth-child(2) img ").css({"width":"100%","height":"100%"});
-        };
-    }; 
-}; 
 
-});
+        $(document).ready(function () {
+            $(".info i:nth-child(2) ").css("display", "none");
+            $('input#user_id').addClass('src');
+            var file = document.querySelector('.src');
 
-    
-    
+            file.onchange = function () {
+                var fileList = file.files;
+
+                // 읽기
+                var reader = new FileReader();
+                reader.readAsDataURL(fileList[0]);
+
+                //로드 한 후
+                reader.onload = function () {
+
+                    //로컬 이미지를 보여주기
+                    document.querySelector('#target').src = reader.result;
+
+                    //썸네일 이미지 생성
+                    var tempImage = new Image(); //drawImage 메서드에 넣기 위해 이미지 객체화
+                    tempImage.src = reader.result; //data-uri를 이미지 객체에 주입
+                    tempImage.onload = function () {
+                        //리사이즈를 위해 캔버스 객체 생성
+                        var canvas = document.createElement('canvas');
+                        var canvasContext = canvas.getContext("2d");
+
+                        //이미지를 캔버스에 그리기
+                        canvasContext.drawImage(this, 0, 0, 100, 100);
+                        $(".img_box .info i:nth-child(1) ").css("display", "none");
+                        $(".img_box .info i:nth-child(2) ").css({ "display": "block", "overflow": "hidden", "height": "15rem" });
+                        $(".img_box .info i:nth-child(2) img ").css({ "width": "100%", "height": "100%" });
+                    };
+                };
+            };
+
+        });
+
+        
+      $(".postaddress").bind("click", function(){
+          new daum.Postcode({
+              oncomplete: function(data) {
+                  $('#teacherpostcode').val(data.zonecode);
+                  $('#teacheraddr1').val(data.address);
+              }
+          }).open();
+      });
+
+
     </script>
 </body>
 
