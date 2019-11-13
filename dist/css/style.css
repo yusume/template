@@ -398,6 +398,7 @@ nav div a.nav-item.nav-link:not(.active)::after { content: "\00a0\00a0\00a0\00a0
     .next_tb th{ width:35%!important; }
     .ig_box{ border:none!important; }
     .t_adress{width:50%!important; }
+    .search_select{margin-left:-1rem!important;}
  }
 
 .page_num{
