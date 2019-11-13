@@ -23,10 +23,9 @@ if ($(window).width() > 768) {
     var $doc = $('html, body');
 
     var btnTop = $('.btn-top');
-    btnTop.on('click', 'a', function (e) {
+    btnTop.on('click', function (e) {
         e.preventDefault();
-        $doc.stop()
-            .animate({
+        $doc.stop().animate({
                 scrollTop: 0
             }, 800)
     });
